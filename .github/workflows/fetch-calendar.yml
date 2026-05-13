@@ -32,7 +32,7 @@ jobs:
 
       # 3. Instala dependências (playwright, etc.)
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       # 4. Instala o Chromium do Playwright
       #    (GitHub Actions já tem as libs de sistema necessárias)
