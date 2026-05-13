@@ -1,0 +1,16 @@
+{
+  "name": "economic-calendar",
+  "version": "1.0.0",
+  "description": "Calendário econômico gratuito via GitHub Actions + Playwright",
+  "scripts": {
+    "scrape": "node scripts/scrape.js",
+    "setup":  "npx playwright install --with-deps chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,54 @@
+name: Fetch Economic Calendar
+
+# ─── Quando roda ────────────────────────────────────────────────────────────
+on:
+  schedule:
+    # 05:02 UTC = 00:02 Nova York no inverno (EST = UTC-5)
+    # 05:02 UTC = 01:02 Nova York no verão  (EDT = UTC-4) — ainda de madrugada, ok
+    - cron: '2 5 * * 1-5'   # segunda a sexta (dias úteis)
+
+  workflow_dispatch:          # permite rodar manualmente pelo site do GitHub
+
+# ─── Permissão para commitar o JSON de volta no repositório ─────────────────
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10       # se travar, cancela em 10 min
+
+    steps:
+      # 1. Baixa o repositório
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Instala Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 3. Instala dependências (playwright, etc.)
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Instala o Chromium do Playwright
+      #    (GitHub Actions já tem as libs de sistema necessárias)
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      # 5. Roda o scraper — gera cache/calendar.json
+      - name: Scrape Investing.com
+        run: node scripts/scrape.js
+
+      # 6. Commita o JSON atualizado de volta no repositório
+      - name: Commit updated calendar
+        run: |
+          git config user.name  "calendar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add cache/calendar.json
+          # só commita se o arquivo mudou de fato
+          git diff --staged --quiet && echo "Sem mudanças, nada a commitar." || \
+          (git commit -m "chore: calendar $(date -u +%Y-%m-%d)" && git push)
