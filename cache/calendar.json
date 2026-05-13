@@ -1,5 +1,27 @@
 {
-  "dateET": "1970-01-01",
-  "fetchedAt": "1970-01-01T00:00:00.000Z",
-  "events": []
+  "dateET": "2026-05-13",
+  "fetchedAt": "2026-05-13T20:02:42.838Z",
+  "events": [
+    {
+      "id": "238",
+      "timeET": "08:30",
+      "name": "PPI (MoM)  (Apr)",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "75",
+      "timeET": "10:30",
+      "name": "Crude Oil Inventories",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "572",
+      "timeET": "13:00",
+      "name": "30-Year Bond Auction",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
