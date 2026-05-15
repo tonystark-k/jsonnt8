@@ -1,48 +1,5 @@
 {
-  "dateET": "2026-05-14",
-  "fetchedAt": "2026-05-14T07:41:12.931Z",
-  "events": [
-    {
-      "id": "121",
-      "timeET": "02:00",
-      "name": "GDP (QoQ)  (Q1)",
-      "currency": "GBP",
-      "impact": 3
-    },
-    {
-      "id": "728",
-      "timeET": "02:00",
-      "name": "GDP (YoY)  (Q1)",
-      "currency": "GBP",
-      "impact": 3
-    },
-    {
-      "id": "1792",
-      "timeET": "02:00",
-      "name": "GDP (MoM)  (Mar)",
-      "currency": "GBP",
-      "impact": 3
-    },
-    {
-      "id": "63",
-      "timeET": "08:30",
-      "name": "Core Retail Sales (MoM)  (Apr)",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "294",
-      "timeET": "08:30",
-      "name": "Initial Jobless Claims",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "256",
-      "timeET": "08:30",
-      "name": "Retail Sales (MoM)  (Apr)",
-      "currency": "USD",
-      "impact": 3
-    }
-  ]
+  "dateET": "2026-05-15",
+  "fetchedAt": "2026-05-15T07:51:54.989Z",
+  "events": []
 }
