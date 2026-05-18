@@ -1,5 +1,13 @@
 {
-  "dateET": "2026-05-15",
-  "fetchedAt": "2026-05-15T07:51:54.989Z",
-  "events": []
+  "dateET": "2026-05-18",
+  "fetchedAt": "2026-05-18T08:44:05.353Z",
+  "events": [
+    {
+      "id": "119",
+      "timeET": "19:50",
+      "name": "GDP (QoQ)  (Q1)",
+      "currency": "JPY",
+      "impact": 3
+    }
+  ]
 }
