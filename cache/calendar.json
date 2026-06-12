@@ -1,5 +1,20 @@
 {
-  "dateET": "2026-05-19",
-  "fetchedAt": "2026-05-19T08:26:47.530Z",
-  "events": []
+  "dateET": "2026-06-12",
+  "fetchedAt": "2026-06-12T08:56:49.436Z",
+  "events": [
+    {
+      "id": "1792",
+      "timeET": "02:00",
+      "name": "GDP (MoM)  (Apr)",
+      "currency": "GBP",
+      "impact": 3
+    },
+    {
+      "id": "128",
+      "timeET": "02:00",
+      "name": "German CPI (MoM)  (May)",
+      "currency": "EUR",
+      "impact": 3
+    }
+  ]
 }
