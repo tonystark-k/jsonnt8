@@ -1,19 +1,12 @@
 {
-  "dateET": "2026-06-12",
-  "fetchedAt": "2026-06-12T08:56:49.436Z",
+  "dateET": "2026-06-16",
+  "fetchedAt": "2026-06-16T10:05:59.227Z",
   "events": [
     {
-      "id": "1792",
-      "timeET": "02:00",
-      "name": "GDP (MoM)  (Apr)",
-      "currency": "GBP",
-      "impact": 3
-    },
-    {
-      "id": "128",
-      "timeET": "02:00",
-      "name": "German CPI (MoM)  (May)",
-      "currency": "EUR",
+      "id": "171",
+      "timeET": "00:30",
+      "name": "RBA Interest Rate Decision  (Jun)",
+      "currency": "AUD",
       "impact": 3
     }
   ]
