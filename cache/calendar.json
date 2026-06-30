@@ -1,5 +1,48 @@
 {
-  "dateET": "2026-06-22",
-  "fetchedAt": "2026-06-22T10:36:23.204Z",
-  "events": []
+  "dateET": "2026-06-30",
+  "fetchedAt": "2026-06-30T08:29:13.081Z",
+  "events": [
+    {
+      "id": "121",
+      "timeET": "02:00",
+      "name": "GDP (QoQ)  (Q1)",
+      "currency": "GBP",
+      "impact": 3
+    },
+    {
+      "id": "728",
+      "timeET": "02:00",
+      "name": "GDP (YoY)  (Q1)",
+      "currency": "GBP",
+      "impact": 3
+    },
+    {
+      "id": "128",
+      "timeET": "08:00",
+      "name": "German CPI (MoM)  (Jun)",
+      "currency": "EUR",
+      "impact": 3
+    },
+    {
+      "id": "38",
+      "timeET": "09:45",
+      "name": "Chicago PMI  (Jun)",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "48",
+      "timeET": "10:00",
+      "name": "CB Consumer Confidence  (Jun)",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "1057",
+      "timeET": "10:00",
+      "name": "JOLTS Job Openings  (May)",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
