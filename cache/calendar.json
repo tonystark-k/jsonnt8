@@ -1,46 +1,53 @@
 {
-  "dateET": "2026-06-30",
-  "fetchedAt": "2026-06-30T08:29:13.081Z",
+  "dateET": "2026-07-01",
+  "fetchedAt": "2026-07-01T08:49:00.143Z",
   "events": [
     {
-      "id": "121",
-      "timeET": "02:00",
-      "name": "GDP (QoQ)  (Q1)",
-      "currency": "GBP",
-      "impact": 3
-    },
-    {
-      "id": "728",
-      "timeET": "02:00",
-      "name": "GDP (YoY)  (Q1)",
-      "currency": "GBP",
-      "impact": 3
-    },
-    {
-      "id": "128",
-      "timeET": "08:00",
-      "name": "German CPI (MoM)  (Jun)",
+      "id": "68",
+      "timeET": "05:00",
+      "name": "CPI (YoY)  (Jun)",
       "currency": "EUR",
       "impact": 3
     },
     {
-      "id": "38",
+      "id": "1",
+      "timeET": "08:15",
+      "name": "ADP Nonfarm Employment Change  (Jun)",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "829",
       "timeET": "09:45",
-      "name": "Chicago PMI  (Jun)",
+      "name": "S&P Global Manufacturing PMI  (Jun)",
       "currency": "USD",
       "impact": 3
     },
     {
-      "id": "48",
+      "id": "173",
       "timeET": "10:00",
-      "name": "CB Consumer Confidence  (Jun)",
+      "name": "ISM Manufacturing PMI  (Jun)",
       "currency": "USD",
       "impact": 3
     },
     {
-      "id": "1057",
+      "id": "174",
       "timeET": "10:00",
-      "name": "JOLTS Job Openings  (May)",
+      "name": "ISM Manufacturing Prices  (Jun)",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "75",
+      "timeET": "10:30",
+      "name": "Crude Oil Inventories",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "1694",
+      "timeET": "15:15",
+      "name": "U.S. President Trump Speaks",
       "currency": "USD",
       "impact": 3
     }
