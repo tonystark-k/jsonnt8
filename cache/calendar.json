@@ -1,53 +1,32 @@
 {
-  "dateET": "2026-07-01",
-  "fetchedAt": "2026-07-01T08:49:00.143Z",
+  "dateET": "2026-07-02",
+  "fetchedAt": "2026-07-02T08:11:27.503Z",
   "events": [
     {
-      "id": "68",
-      "timeET": "05:00",
-      "name": "CPI (YoY)  (Jun)",
-      "currency": "EUR",
-      "impact": 3
-    },
-    {
-      "id": "1",
-      "timeET": "08:15",
-      "name": "ADP Nonfarm Employment Change  (Jun)",
+      "id": "8",
+      "timeET": "08:30",
+      "name": "Average Hourly Earnings (MoM)  (Jun)",
       "currency": "USD",
       "impact": 3
     },
     {
-      "id": "829",
-      "timeET": "09:45",
-      "name": "S&P Global Manufacturing PMI  (Jun)",
+      "id": "294",
+      "timeET": "08:30",
+      "name": "Initial Jobless Claims",
       "currency": "USD",
       "impact": 3
     },
     {
-      "id": "173",
-      "timeET": "10:00",
-      "name": "ISM Manufacturing PMI  (Jun)",
+      "id": "227",
+      "timeET": "08:30",
+      "name": "Nonfarm Payrolls  (Jun)",
       "currency": "USD",
       "impact": 3
     },
     {
-      "id": "174",
-      "timeET": "10:00",
-      "name": "ISM Manufacturing Prices  (Jun)",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "75",
-      "timeET": "10:30",
-      "name": "Crude Oil Inventories",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "1694",
-      "timeET": "15:15",
-      "name": "U.S. President Trump Speaks",
+      "id": "300",
+      "timeET": "08:30",
+      "name": "Unemployment Rate  (Jun)",
       "currency": "USD",
       "impact": 3
     }
