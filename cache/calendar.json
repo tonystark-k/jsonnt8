@@ -1,34 +1,5 @@
 {
-  "dateET": "2026-07-02",
-  "fetchedAt": "2026-07-02T08:11:27.503Z",
-  "events": [
-    {
-      "id": "8",
-      "timeET": "08:30",
-      "name": "Average Hourly Earnings (MoM)  (Jun)",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "294",
-      "timeET": "08:30",
-      "name": "Initial Jobless Claims",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "227",
-      "timeET": "08:30",
-      "name": "Nonfarm Payrolls  (Jun)",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "300",
-      "timeET": "08:30",
-      "name": "Unemployment Rate  (Jun)",
-      "currency": "USD",
-      "impact": 3
-    }
-  ]
+  "dateET": "2026-07-13",
+  "fetchedAt": "2026-07-13T08:15:47.051Z",
+  "events": []
 }
