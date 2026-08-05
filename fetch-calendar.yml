@@ -1,4 +1,3 @@
-// scripts/fetch-calendar.js
 import { writeFile, mkdir } from 'node:fs/promises';
 
 const URL = 'https://nfs.faireconomy.media/ff_calendar_thisweek.json';
