@@ -1,0 +1,21 @@
+name: Debug EC ForexProsTools
+
+on:
+  workflow_dispatch:   # manual trigger only — never runs automatically
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Inspect ec.forexprostools.com HTML
+        run: node scripts/debug-ec.js
