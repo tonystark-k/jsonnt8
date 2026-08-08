@@ -1,23 +1,34 @@
-import { writeFile, mkdir } from 'node:fs/promises';
+name: Fetch Economic Calendar
 
-const URL = 'https://nfs.faireconomy.media/ff_calendar_thisweek.json';
+on:
+  schedule:
+    - cron: '2 5 * * 1-5'   # 05:02 UTC — well before NY/Chicago market open
+  workflow_dispatch:
 
-const res = await fetch(URL, {
-  headers: { 'User-Agent': 'calendar-bot/1.0' },
-});
+permissions:
+  contents: write
 
-if (!res.ok) throw new Error(`HTTP ${res.status}`);
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
-const text = await res.text();
-if (text.trimStart().startsWith('<')) {
-  throw new Error('Resposta HTML — provável rate limit');
-}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-const events = JSON.parse(text);
-if (!Array.isArray(events) || events.length === 0) {
-  throw new Error('Payload vazio ou em formato inesperado');
-}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
-await mkdir('cache', { recursive: true });
-await writeFile('cache/calendar.json', JSON.stringify(events, null, 2));
-console.log(`OK — ${events.length} eventos`);
+      - name: Fetch calendar
+        run: node scripts/fetch.js
+
+      - name: Commit updated calendar
+        run: |
+          git config user.name  "calendar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add cache/calendar.json
+          git diff --staged --quiet && echo "No changes." || \
+          (git commit -m "chore: calendar $(date -u +%Y-%m-%d)" && git push)
