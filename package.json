@@ -1,16 +1,12 @@
 {
   "name": "economic-calendar",
-  "version": "1.0.0",
-  "description": "Calendário econômico gratuito via GitHub Actions + Playwright",
+  "version": "2.0.0",
+  "description": "Free economic calendar via GitHub Actions + ForexFactory public JSON feed",
   "scripts": {
-    "scrape": "node scripts/scrape.js",
-    "setup":  "npx playwright install --with-deps chromium"
-  },
-  "dependencies": {
-    "playwright": "^1.44.0"
+    "fetch": "node scripts/fetch.js"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22.0.0"
   },
   "license": "MIT"
 }
