@@ -1,4 +1,4 @@
-name: Debug MyFxBook
+name: Debug TradingEconomics
 
 on:
   workflow_dispatch:   # manual trigger only — never runs automatically
@@ -17,5 +17,5 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Inspect myfxbook.com endpoints
-        run: node scripts/debug-myfxbook.js
+      - name: Inspect tradingeconomics.com HTML
+        run: node scripts/debug-tradingeconomics.js
