@@ -1,5 +1,13 @@
 {
-  "dateET": "2026-08-10",
-  "fetchedAt": "2026-08-10T06:09:06.608Z",
-  "events": []
+  "dateET": "2026-08-11",
+  "fetchedAt": "2026-08-11T05:51:22.155Z",
+  "events": [
+    {
+      "id": "398421",
+      "timeET": "10:00",
+      "name": "Existing Home Sales",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
