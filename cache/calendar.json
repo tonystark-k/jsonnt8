@@ -1,11 +1,32 @@
 {
-  "dateET": "2026-08-11",
-  "fetchedAt": "2026-08-11T05:51:22.155Z",
+  "dateET": "2026-08-12",
+  "fetchedAt": "2026-08-12T06:11:18.477Z",
   "events": [
     {
-      "id": "398421",
-      "timeET": "10:00",
-      "name": "Existing Home Sales",
+      "id": "398411",
+      "timeET": "08:30",
+      "name": "Core Inflation Rate MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398548",
+      "timeET": "08:30",
+      "name": "Core Inflation Rate YoY",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398841",
+      "timeET": "08:30",
+      "name": "Inflation Rate MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398051",
+      "timeET": "08:30",
+      "name": "Inflation Rate YoY",
       "currency": "USD",
       "impact": 3
     }
