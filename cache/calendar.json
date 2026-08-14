@@ -1,11 +1,18 @@
 {
-  "dateET": "2026-08-13",
-  "fetchedAt": "2026-08-13T06:14:27.081Z",
+  "dateET": "2026-08-14",
+  "fetchedAt": "2026-08-14T06:11:07.234Z",
   "events": [
     {
-      "id": "399062",
+      "id": "398906",
       "timeET": "08:30",
-      "name": "PPI MoM",
+      "name": "Retail Sales MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "396548",
+      "timeET": "10:00",
+      "name": "Michigan Consumer Sentiment Prel",
       "currency": "USD",
       "impact": 3
     }
