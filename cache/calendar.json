@@ -1,5 +1,20 @@
 {
-  "dateET": "2026-08-17",
-  "fetchedAt": "2026-08-17T05:32:35.551Z",
-  "events": []
+  "dateET": "2026-08-18",
+  "fetchedAt": "2026-08-18T05:25:40.229Z",
+  "events": [
+    {
+      "id": "398809",
+      "timeET": "08:30",
+      "name": "Building Permits Prel",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398326",
+      "timeET": "08:30",
+      "name": "Housing Starts",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
