@@ -1,13 +1,5 @@
 {
-  "dateET": "2026-08-19",
-  "fetchedAt": "2026-08-19T05:26:19.682Z",
-  "events": [
-    {
-      "id": "390610",
-      "timeET": "14:00",
-      "name": "FOMC Minutes",
-      "currency": "USD",
-      "impact": 3
-    }
-  ]
+  "dateET": "2026-08-20",
+  "fetchedAt": "2026-08-20T05:27:07.082Z",
+  "events": []
 }
