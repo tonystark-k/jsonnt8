@@ -1,5 +1,41 @@
 {
-  "dateET": "2026-08-25",
-  "fetchedAt": "2026-08-25T05:28:32.353Z",
-  "events": []
+  "dateET": "2026-08-26",
+  "fetchedAt": "2026-08-26T05:31:25.757Z",
+  "events": [
+    {
+      "id": "399129",
+      "timeET": "08:30",
+      "name": "Core PCE Price Index MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398984",
+      "timeET": "08:30",
+      "name": "Durable Goods Orders MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "399163",
+      "timeET": "08:30",
+      "name": "GDP Growth Rate QoQ 2nd Est",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398577",
+      "timeET": "08:30",
+      "name": "Personal Income MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "397987",
+      "timeET": "08:30",
+      "name": "Personal Spending MoM",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
