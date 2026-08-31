@@ -1,20 +1,5 @@
 {
-  "dateET": "2026-08-28",
-  "fetchedAt": "2026-08-28T17:08:36.039Z",
-  "events": [
-    {
-      "id": "421027",
-      "timeET": "10:00",
-      "name": "Fed Chair Warsh Speech",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "420972",
-      "timeET": "10:00",
-      "name": "Non Farm Payrolls Annual Revision Prel",
-      "currency": "USD",
-      "impact": 3
-    }
-  ]
+  "dateET": "2026-08-31",
+  "fetchedAt": "2026-08-31T11:20:41.275Z",
+  "events": []
 }
