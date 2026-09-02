@@ -1,20 +1,5 @@
 {
-  "dateET": "2026-09-01",
-  "fetchedAt": "2026-09-01T09:44:05.739Z",
-  "events": [
-    {
-      "id": "396677",
-      "timeET": "10:00",
-      "name": "ISM Manufacturing PMI",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "397904",
-      "timeET": "10:00",
-      "name": "JOLTs Job Openings",
-      "currency": "USD",
-      "impact": 3
-    }
-  ]
+  "dateET": "2026-09-02",
+  "fetchedAt": "2026-09-02T09:16:58.863Z",
+  "events": []
 }
