@@ -1,5 +1,13 @@
 {
-  "dateET": "2026-09-02",
-  "fetchedAt": "2026-09-02T09:16:58.863Z",
-  "events": []
+  "dateET": "2026-09-03",
+  "fetchedAt": "2026-09-03T09:26:23.823Z",
+  "events": [
+    {
+      "id": "396719",
+      "timeET": "10:00",
+      "name": "ISM Services PMI",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
