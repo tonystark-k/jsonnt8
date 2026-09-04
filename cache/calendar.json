@@ -1,11 +1,18 @@
 {
-  "dateET": "2026-09-03",
-  "fetchedAt": "2026-09-03T09:26:23.823Z",
+  "dateET": "2026-09-04",
+  "fetchedAt": "2026-09-04T09:18:49.376Z",
   "events": [
     {
-      "id": "396719",
-      "timeET": "10:00",
-      "name": "ISM Services PMI",
+      "id": "396731",
+      "timeET": "08:30",
+      "name": "Non Farm Payrolls",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "396733",
+      "timeET": "08:30",
+      "name": "Unemployment Rate",
       "currency": "USD",
       "impact": 3
     }
