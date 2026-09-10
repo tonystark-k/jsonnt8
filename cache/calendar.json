@@ -1,5 +1,20 @@
 {
-  "dateET": "2026-09-09",
-  "fetchedAt": "2026-09-09T09:22:57.875Z",
-  "events": []
+  "dateET": "2026-09-10",
+  "fetchedAt": "2026-09-10T09:22:36.198Z",
+  "events": [
+    {
+      "id": "399194",
+      "timeET": "08:30",
+      "name": "PPI MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398377",
+      "timeET": "10:00",
+      "name": "Existing Home Sales",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
