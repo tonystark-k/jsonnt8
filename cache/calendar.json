@@ -1,5 +1,34 @@
 {
-  "dateET": "2026-09-15",
-  "fetchedAt": "2026-09-15T09:45:48.517Z",
-  "events": []
+  "dateET": "2026-09-16",
+  "fetchedAt": "2026-09-16T09:39:44.700Z",
+  "events": [
+    {
+      "id": "398500",
+      "timeET": "08:30",
+      "name": "Retail Sales MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "390604",
+      "timeET": "14:00",
+      "name": "Fed Interest Rate Decision",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "390618",
+      "timeET": "14:00",
+      "name": "FOMC Economic Projections",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "390635",
+      "timeET": "14:30",
+      "name": "Fed Press Conference",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
