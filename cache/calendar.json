@@ -1,32 +1,18 @@
 {
-  "dateET": "2026-09-16",
-  "fetchedAt": "2026-09-16T09:39:44.700Z",
+  "dateET": "2026-09-17",
+  "fetchedAt": "2026-09-17T09:48:29.380Z",
   "events": [
     {
-      "id": "398500",
+      "id": "398501",
       "timeET": "08:30",
-      "name": "Retail Sales MoM",
+      "name": "Building Permits Prel",
       "currency": "USD",
       "impact": 3
     },
     {
-      "id": "390604",
-      "timeET": "14:00",
-      "name": "Fed Interest Rate Decision",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "390618",
-      "timeET": "14:00",
-      "name": "FOMC Economic Projections",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "390635",
-      "timeET": "14:30",
-      "name": "Fed Press Conference",
+      "id": "398467",
+      "timeET": "08:30",
+      "name": "Housing Starts",
       "currency": "USD",
       "impact": 3
     }
