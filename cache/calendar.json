@@ -1,5 +1,13 @@
 {
-  "dateET": "2026-09-28",
-  "fetchedAt": "2026-09-28T11:25:33.946Z",
-  "events": []
+  "dateET": "2026-09-29",
+  "fetchedAt": "2026-09-29T11:04:35.071Z",
+  "events": [
+    {
+      "id": "398485",
+      "timeET": "10:00",
+      "name": "JOLTs Job Openings",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
