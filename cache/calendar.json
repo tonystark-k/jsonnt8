@@ -1,11 +1,32 @@
 {
-  "dateET": "2026-09-29",
-  "fetchedAt": "2026-09-29T11:04:35.071Z",
+  "dateET": "2026-09-30",
+  "fetchedAt": "2026-09-30T10:53:17.333Z",
   "events": [
     {
-      "id": "398485",
-      "timeET": "10:00",
-      "name": "JOLTs Job Openings",
+      "id": "398638",
+      "timeET": "08:30",
+      "name": "Core PCE Price Index MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398643",
+      "timeET": "08:30",
+      "name": "GDP Growth Rate QoQ Final",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "399260",
+      "timeET": "08:30",
+      "name": "Personal Income MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "399036",
+      "timeET": "08:30",
+      "name": "Personal Spending MoM",
       "currency": "USD",
       "impact": 3
     }
