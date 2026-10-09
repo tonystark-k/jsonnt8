@@ -1,5 +1,13 @@
 {
-  "dateET": "2026-10-08",
-  "fetchedAt": "2026-10-08T11:45:48.359Z",
-  "events": []
+  "dateET": "2026-10-09",
+  "fetchedAt": "2026-10-09T11:38:33.764Z",
+  "events": [
+    {
+      "id": "397068",
+      "timeET": "10:00",
+      "name": "Michigan Consumer Sentiment Prel",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
