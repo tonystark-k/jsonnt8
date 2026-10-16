@@ -1,27 +1,5 @@
 {
-  "dateET": "2026-10-15",
-  "fetchedAt": "2026-10-15T09:35:55.360Z",
-  "events": [
-    {
-      "id": "398427",
-      "timeET": "08:30",
-      "name": "PPI MoM",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "399247",
-      "timeET": "08:30",
-      "name": "Retail Sales MoM",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "421611",
-      "timeET": "23:30",
-      "name": "Fed Chair Warsh Speech",
-      "currency": "USD",
-      "impact": 3
-    }
-  ]
+  "dateET": "2026-10-16",
+  "fetchedAt": "2026-10-16T09:28:34.422Z",
+  "events": []
 }
