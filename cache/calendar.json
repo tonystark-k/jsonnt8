@@ -1,5 +1,13 @@
 {
-  "dateET": "2026-10-26",
-  "fetchedAt": "2026-10-26T10:44:53.766Z",
-  "events": []
+  "dateET": "2026-10-27",
+  "fetchedAt": "2026-10-27T10:11:29.915Z",
+  "events": [
+    {
+      "id": "398125",
+      "timeET": "08:30",
+      "name": "Durable Goods Orders MoM",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
