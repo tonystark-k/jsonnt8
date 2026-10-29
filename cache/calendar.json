@@ -1,25 +1,32 @@
 {
-  "dateET": "2026-10-28",
-  "fetchedAt": "2026-10-28T10:57:25.862Z",
+  "dateET": "2026-10-29",
+  "fetchedAt": "2026-10-29T11:17:02.979Z",
   "events": [
     {
-      "id": "390605",
-      "timeET": "14:00",
-      "name": "Fed Interest Rate Decision",
+      "id": "397886",
+      "timeET": "08:30",
+      "name": "Core PCE Price Index MoM",
       "currency": "USD",
       "impact": 3
     },
     {
-      "id": "422028",
-      "timeET": "14:00",
-      "name": "FOMC Statement",
+      "id": "398178",
+      "timeET": "08:30",
+      "name": "GDP Growth Rate QoQ Adv",
       "currency": "USD",
       "impact": 3
     },
     {
-      "id": "390636",
-      "timeET": "14:30",
-      "name": "Fed Press Conference",
+      "id": "398255",
+      "timeET": "08:30",
+      "name": "Personal Income MoM",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "398269",
+      "timeET": "08:30",
+      "name": "Personal Spending MoM",
       "currency": "USD",
       "impact": 3
     }
