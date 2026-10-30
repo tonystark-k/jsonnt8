@@ -1,34 +1,5 @@
 {
-  "dateET": "2026-10-29",
-  "fetchedAt": "2026-10-29T11:17:02.979Z",
-  "events": [
-    {
-      "id": "397886",
-      "timeET": "08:30",
-      "name": "Core PCE Price Index MoM",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "398178",
-      "timeET": "08:30",
-      "name": "GDP Growth Rate QoQ Adv",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "398255",
-      "timeET": "08:30",
-      "name": "Personal Income MoM",
-      "currency": "USD",
-      "impact": 3
-    },
-    {
-      "id": "398269",
-      "timeET": "08:30",
-      "name": "Personal Spending MoM",
-      "currency": "USD",
-      "impact": 3
-    }
-  ]
+  "dateET": "2026-10-30",
+  "fetchedAt": "2026-10-30T11:09:55.070Z",
+  "events": []
 }
