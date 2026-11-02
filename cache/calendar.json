@@ -1,5 +1,13 @@
 {
-  "dateET": "2026-10-30",
-  "fetchedAt": "2026-10-30T11:09:55.070Z",
-  "events": []
+  "dateET": "2026-11-02",
+  "fetchedAt": "2026-11-02T13:04:08.704Z",
+  "events": [
+    {
+      "id": "397194",
+      "timeET": "10:00",
+      "name": "ISM Manufacturing PMI",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
