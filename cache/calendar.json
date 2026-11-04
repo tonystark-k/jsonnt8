@@ -1,11 +1,11 @@
 {
-  "dateET": "2026-11-03",
-  "fetchedAt": "2026-11-03T12:36:04.636Z",
+  "dateET": "2026-11-04",
+  "fetchedAt": "2026-11-04T12:46:01.253Z",
   "events": [
     {
-      "id": "399215",
+      "id": "397226",
       "timeET": "10:00",
-      "name": "JOLTs Job Openings",
+      "name": "ISM Services PMI",
       "currency": "USD",
       "impact": 3
     }
