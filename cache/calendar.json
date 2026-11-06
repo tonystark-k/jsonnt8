@@ -1,5 +1,27 @@
 {
-  "dateET": "2026-11-05",
-  "fetchedAt": "2026-11-05T12:55:09.613Z",
-  "events": []
+  "dateET": "2026-11-06",
+  "fetchedAt": "2026-11-06T12:42:26.247Z",
+  "events": [
+    {
+      "id": "397256",
+      "timeET": "08:30",
+      "name": "Non Farm Payrolls",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "397254",
+      "timeET": "08:30",
+      "name": "Unemployment Rate",
+      "currency": "USD",
+      "impact": 3
+    },
+    {
+      "id": "397307",
+      "timeET": "10:00",
+      "name": "Michigan Consumer Sentiment Prel",
+      "currency": "USD",
+      "impact": 3
+    }
+  ]
 }
